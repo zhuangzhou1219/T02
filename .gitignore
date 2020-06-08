@@ -1,0 +1,30 @@
+.DS_Store
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+把刚刚这两个命令自己运行一下
+名字自己取
+邮箱地址保持跟 githup注册的一样就行
+ git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+  然后就可以了
+  先  git add *
+然后 git commit -m 'xxxxxx'
+再然后执行 
